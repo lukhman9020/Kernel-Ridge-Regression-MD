@@ -2,7 +2,7 @@
 Trajectory-based Kernel Ridge Regression model applied to excited-state molecular dynamics data.
 # Trajectory-Based Kernel Ridge Regression for Excited-State Dynamics
 
-This repository contains a Python implementation of a Kernel Ridge Regression (KRR) model trained on data from surface hopping dynamics simulations starting from the S1 excited state. The simulation spans 1000 fs with a 0.5 fs time step, yielding 2001 molecular structures. This work demonstrates the application of machine learning to analyze and predict excited-state molecular behavior.
+This repository contains a Python implementation of a Kernel Ridge Regression (KRR) model intended to predict molecular dynamics (MD) simulation trajectories. The model can be trained on short-time-scale AIMD trajectory coordinates generated from surface hopping dynamics simulations. The provided scripts enable users to train the model on their own datasets to learn and extrapolate excited-state molecular behavior based on initial trajectory segments.
 
 ## Features
 - Kernel Ridge Regression using scikit-learn
