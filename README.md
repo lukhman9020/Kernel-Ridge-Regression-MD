@@ -15,4 +15,5 @@ See `requirements.txt` for Python dependencies.
 
 ## Usage
 ```bash
-python krr_model.py
+conda activate pysharc_3.0
+python3 krr_model.py
